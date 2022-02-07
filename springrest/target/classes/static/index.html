@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>Course Home</title>
+</head>
+<body>
+	<h1>Course Home Page</h1>
+
+	<a href="/getcourses.html" target="_blank" class="get_courses">
+		<button type="submit">Get Courses</button>
+	</a>
+
+	<div class="reg-form">
+		<form action="#" method="post">
+			<p>Course ID:</p>
+			<input type="number" name="courseID" id="courseID"
+				placeholder="Enter Course ID">
+			<p>Course Name:</p>
+			<input type="text" name="coursename" id="coursename"
+				placeholder="Enter Course Name">
+			<p>Course Description:</p>
+			<input type="text" name="Course_Description" id="courseDescription"
+				placeholder="Enter Course Description">
+			<p>Course Price:</p>
+			<input type="number" name="Course_Price" id="coursePrice"
+				placeholder="Enter Course Price">
+				<p>Course Author:</p>
+			<input type="text" name="Course_Author" id="courseAuthor"
+				placeholder="Enter Course Author">
+			<p>
+				<button type="button" onclick="addCourse()">Add Course</button>
+			</p>
+		</form>
+	</div>
+<script src="/index.js"></script>
+
+</body>
+</html>
